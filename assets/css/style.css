@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --header-bg: #10375C;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,4 +13,78 @@ html {
 body {
     font-family: "Sora", sans-serif;
     font-size: 1.6rem;
+    height: 5000px;
+}
+
+/* Common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 205px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    border-radius: 999px;
+    background-color: #2E80CE;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* =====================Header===================== */
+.header {
+    min-height: 100vh;
+    padding-top: 30px;
+    background: var(--header-bg);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    margin-right: -12px;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    color: #C9D2DA;
+    padding: 8px 21px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.navbar__link:hover {
+    text-shadow: 1px 0px 0px currentColor;
+}
+
+.action__login {
+    margin-right: 10px;
+    padding: 12px 17px;
+    color: #C9D2DA;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.action__signup {
+    width: 104px;
+    font-size: 1.6rem;
+    line-height: 44px;
 }

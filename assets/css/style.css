@@ -311,3 +311,49 @@ a {
     color: #2E80CE;
     font-weight: 400;
 }
+
+/* =====================Feature===================== */
+.feature {
+    margin-top: 70px;
+    padding: 100px 0px;
+}
+
+.feature__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__media {
+    width: 48.71%;
+}
+
+.feature__image {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.feature__img1 {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__content {
+    width: 40%;
+}
+
+.feature__btn {
+    margin-top: 38px;
+}

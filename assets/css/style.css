@@ -444,3 +444,47 @@ a {
 .member__control--next-icon {
     rotate: 180deg;
 }
+
+/* =====================Install===================== */
+.install {
+    margin-top: 195px;
+}
+
+.install__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    border-radius: 4px;
+    background: #2E80CE;
+}
+
+.install__img {
+    margin-top: -95px;
+    display: block;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    color: #FFF;
+    max-width: 489px;
+}
+
+.install__desc {
+    color: #FFF;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
+
+.install__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
